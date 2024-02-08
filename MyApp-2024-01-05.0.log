@@ -1,0 +1,27 @@
+2024-01-05 10:40:19.437  INFO 13868 --- [restartedMain] c.e.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 1.8.0_321 on STGIDT-NEW-154 with PID 13868 (C:\Users\suryam\Downloads\asset_management_1\asset_management\asset_management\target\classes started by suryam in C:\Users\suryam\Downloads\asset_management_1\asset_management\asset_management)
+2024-01-05 10:40:19.454  INFO 13868 --- [restartedMain] c.e.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-01-05 10:40:19.775  INFO 13868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-05 10:40:19.776  INFO 13868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-05 10:40:28.080  INFO 13868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-05 10:40:29.122  INFO 13868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 806 ms. Found 5 JPA repository interfaces.
+2024-01-05 10:40:30.535  INFO 13868 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cfd7e0d7-98e2-309b-ab16-33f43ffda0cb
+2024-01-05 10:40:36.467  INFO 13868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5252 (http)
+2024-01-05 10:40:36.572  INFO 13868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-05 10:40:36.574  INFO 13868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2024-01-05 10:40:37.153  INFO 13868 --- [restartedMain] o.a.c.c.C.[.[.[/stg-asset-management]    : Initializing Spring embedded WebApplicationContext
+2024-01-05 10:40:37.156  INFO 13868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17379 ms
+2024-01-05 10:40:38.388  INFO 13868 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-05 10:40:38.767  INFO 13868 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-01-05 10:40:39.471  INFO 13868 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-05 10:40:40.149  INFO 13868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-05 10:40:43.687  INFO 13868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-05 10:40:43.779  INFO 13868 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-05 10:40:50.331  INFO 13868 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-05 10:40:50.690  INFO 13868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-05 10:40:53.155  WARN 13868 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-05 10:40:56.918  INFO 13868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-05 10:40:57.609  INFO 13868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5252 (http) with context path '/stg-asset-management'
+2024-01-05 10:40:57.888  INFO 13868 --- [restartedMain] c.e.a.AssetManagementApplication         : Started AssetManagementApplication in 46.435 seconds (JVM running for 54.658)
+2024-01-05 10:41:46.831  INFO 13868 --- [http-nio-5252-exec-1] o.a.c.c.C.[.[.[/stg-asset-management]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-05 10:41:46.832  INFO 13868 --- [http-nio-5252-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-05 10:41:46.834  INFO 13868 --- [http-nio-5252-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

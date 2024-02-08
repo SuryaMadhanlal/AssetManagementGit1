@@ -1,0 +1,2 @@
+2024-01-23 12:14:57.949  WARN 10596 --- [http-nio-5252-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.asset_management.exception.AssetException: Invalid Username or Password ]
+2024-01-23 12:21:58.253  WARN 10596 --- [http-nio-5252-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.asset_management.exception.AssetException: Invalid Username or Password ]
